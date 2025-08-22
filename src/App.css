@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 40rem) {
+  /* 640px */
+  .container {
+    max-width: 40rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  /* 768px */
+  .container {
+    max-width: 48rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  /* 1024px */
+  .container {
+    max-width: 64rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  /* 1280px */
+  .container {
+    max-width: 80rem;
+  }
+}
+
+@media (min-width: 96rem) {
+  /* 1536px */
+  .container {
+    max-width: 90rem;
+  }
+}
